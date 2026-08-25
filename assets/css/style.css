@@ -147,10 +147,10 @@ svg { width: 1em; height: 1em; }
 }
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 .brand { display: flex; align-items: center; gap: 12px; }
-.brand-logo { width: 46px; height: 46px; border-radius: 50%; flex-shrink: 0; transition: width 0.4s var(--ease), height 0.4s var(--ease); }
-.site-header.is-scrolled .brand-logo { width: 38px; height: 38px; }
-.brand-wordmark { height: 32px; width: auto; transition: height 0.4s var(--ease); }
-.site-header.is-scrolled .brand-wordmark { height: 27px; }
+.brand-logo { width: 64px; height: 64px; border-radius: 50%; flex-shrink: 0; transition: width 0.4s var(--ease), height 0.4s var(--ease); }
+.site-header.is-scrolled .brand-logo { width: 52px; height: 52px; }
+.brand-wordmark { height: 44px; width: auto; transition: height 0.4s var(--ease); }
+.site-header.is-scrolled .brand-wordmark { height: 36px; }
 
 .main-nav { display: flex; align-items: center; gap: 34px; }
 .main-nav ul { display: flex; align-items: center; gap: 30px; }
